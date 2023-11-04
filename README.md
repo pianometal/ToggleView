@@ -21,13 +21,13 @@ A custom Toggle View constructed in SwiftUI
 
 # Screenshots
 
-<img width="480" alt="Toggle View Light Mode" src="https://github.com/pianometal/ToggleView/assets/41491421/52176d01-26ee-4cd2-b392-83415dab991b">
+<img height="480" alt="Toggle View Light Mode" src="https://github.com/pianometal/ToggleView/assets/41491421/8cf6c24d-57b0-4187-8f7d-cbc855dd0d70">
 
-<img width="480" alt="Toggle View Dark Mode" src="https://github.com/pianometal/ToggleView/assets/41491421/7293c12f-ed2f-46bc-87dd-3ce5d0eac729">
+<img height="480" alt="Toggle View Dark Mode" src="https://github.com/pianometal/ToggleView/assets/41491421/421eaf5f-a311-4d11-b3b9-d668b1b1d656">
 
 # Video
 
-https://github.com/pianometal/ToggleView/assets/41491421/078a422d-dfa0-4c60-93e3-dcdfcf116e20
+https://github.com/pianometal/ToggleView/assets/41491421/8f85ad74-761a-49f1-9ef3-16e4061584f6
 
 # Code
 
