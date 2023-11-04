@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E60958172AF6877000C5B7D0 /* ToggleViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60958162AF6877000C5B7D0 /* ToggleViewApp.swift */; };
-		E60958192AF6877000C5B7D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60958182AF6877000C5B7D0 /* ContentView.swift */; };
 		E609581B2AF6877100C5B7D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E609581A2AF6877100C5B7D0 /* Assets.xcassets */; };
 		E609581E2AF6877100C5B7D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E609581D2AF6877100C5B7D0 /* Preview Assets.xcassets */; };
+		E60958252AF687BD00C5B7D0 /* ToggleTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60958242AF687BD00C5B7D0 /* ToggleTestingView.swift */; };
+		E60958272AF687E500C5B7D0 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60958262AF687E500C5B7D0 /* ToggleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E60958132AF6877000C5B7D0 /* ToggleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60958162AF6877000C5B7D0 /* ToggleViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewApp.swift; sourceTree = "<group>"; };
-		E60958182AF6877000C5B7D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E609581A2AF6877100C5B7D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E609581D2AF6877100C5B7D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E60958242AF687BD00C5B7D0 /* ToggleTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTestingView.swift; sourceTree = "<group>"; };
+		E60958262AF687E500C5B7D0 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				E60958162AF6877000C5B7D0 /* ToggleViewApp.swift */,
-				E60958182AF6877000C5B7D0 /* ContentView.swift */,
+				E60958242AF687BD00C5B7D0 /* ToggleTestingView.swift */,
+				E60958262AF687E500C5B7D0 /* ToggleView.swift */,
 				E609581A2AF6877100C5B7D0 /* Assets.xcassets */,
 				E609581C2AF6877100C5B7D0 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E60958192AF6877000C5B7D0 /* ContentView.swift in Sources */,
+				E60958252AF687BD00C5B7D0 /* ToggleTestingView.swift in Sources */,
+				E60958272AF687E500C5B7D0 /* ToggleView.swift in Sources */,
 				E60958172AF6877000C5B7D0 /* ToggleViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToggleView/Preview Content\"";
+				DEVELOPMENT_TEAM = 8362DDGZSL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,6 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToggleView/Preview Content\"";
+				DEVELOPMENT_TEAM = 8362DDGZSL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

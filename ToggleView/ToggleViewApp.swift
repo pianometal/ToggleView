@@ -1,17 +1,17 @@
 //
 //  ToggleViewApp.swift
-//  ToggleView
 //
-//  Created by Kyle Lovely on 11/4/23.
+//  Created by Kyle Lovely
+//
+//  https://github.com/pianometal
 //
 
 import SwiftUI
 
-@main
-struct ToggleViewApp: App {
+@main struct ToggleViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToggleTestingView()
         }
     }
 }
