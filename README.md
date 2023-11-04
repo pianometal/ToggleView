@@ -1,7 +1,5 @@
 # ToggleView
 
-A custom Toggle View constructed in SwiftUI
-
 #### Requirements
 
 - 📲 iOS 16
